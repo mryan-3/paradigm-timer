@@ -1,0 +1,35 @@
+:root {
+  /* Warm Physical Paper Palette */
+  --bg-paper: #fbf8f2;
+  --bg-paper-warm: #f3ece0;
+  --bg-paper-band: #ede4d3;
+  --surface-card: rgba(255, 255, 255, 0.76);
+  --surface-card-hover: rgba(255, 255, 255, 0.92);
+
+  /* Deep Sumi Charcoal & Editorial Ink */
+  --ink-primary: #1a1816;
+  --ink-secondary: #57524d;
+  --ink-muted: #8c857b;
+  --ink-faint: #d6cfc4;
+  --ink-ghost: #eae4d8;
+
+  /* Tactile Natural Accents (No Purple Gradients) */
+  --accent-terracotta: #c25736;
+  --accent-ochre: #d9822b;
+  --accent-sage: #4e6b56;
+
+  /* Typography */
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Elevation (No decorative top/left borders) */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  --shadow-card: 0 12px 36px -4px rgba(26, 24, 22, 0.08), 0 2px 8px -1px rgba(26, 24, 22, 0.04);
+  --shadow-button: 0 4px 14px -2px rgba(26, 24, 22, 0.06);
+
+  /* Easing */
+  --transition-smooth: 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
