@@ -6,4 +6,6 @@ export * from "./scene-lake";
 export * from "./scene-botanical";
 export * from "./scene-orrery";
 export * from "./scene-terrarium";
+export * from "./scene-seasons";
+export * from "./canvas-hatching";
 export * from "./canvas-renderer";

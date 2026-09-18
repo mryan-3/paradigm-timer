@@ -3,9 +3,10 @@ import { drawLakeScene } from "./scene-lake";
 import { drawBotanicalScene } from "./scene-botanical";
 import { drawOrreryScene } from "./scene-orrery";
 import { drawTerrariumScene } from "./scene-terrarium";
+import { drawSeasonsScene } from "./scene-seasons";
 import { PALETTES, type VisualLook, type Palette } from "./palettes";
 
-export type SceneId = "lake" | "botanical" | "orrery" | "terrarium";
+export type SceneId = "lake" | "botanical" | "orrery" | "terrarium" | "seasons";
 
 export class CanvasRenderer {
   private canvas: HTMLCanvasElement;
@@ -79,6 +80,8 @@ export class CanvasRenderer {
       drawOrreryScene(this.ctx, w, h, tau, this.progress, palette, this.frameIndex % 8);
     } else if (this.activeScene === "terrarium") {
       drawTerrariumScene(this.ctx, w, h, tau, this.progress, palette);
+    } else if (this.activeScene === "seasons") {
+      drawSeasonsScene(this.ctx, w, h, tau, this.progress, palette);
     }
   }
 

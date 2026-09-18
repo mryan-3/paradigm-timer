@@ -62,6 +62,7 @@ if (app) {
         <button id="scene-botanical" class="selector-pill active">Botanical</button>
         <button id="scene-orrery" class="selector-pill">Orrery</button>
         <button id="scene-terrarium" class="selector-pill">Terrarium</button>
+        <button id="scene-seasons" class="selector-pill">Cabin & Seasons</button>
       </div>
     </footer>
   `;
@@ -145,6 +146,7 @@ if (app) {
     botanical: "#scene-botanical",
     orrery: "#scene-orrery",
     terrarium: "#scene-terrarium",
+    seasons: "#scene-seasons",
   };
 
   Object.entries(sceneButtons).forEach(([sceneId, selector]) => {
